@@ -29,6 +29,13 @@ public class QuizGame {
 					score++; JOptionPane.showMessageDialog(null, "Your score is "+score+".");
 				} else { 
 					score--; JOptionPane.showMessageDialog(null, "Your score is "+score+".");
+				
+				}
+				String interesting = JOptionPane.showInputDialog("Factor the following: x^2+6x+9?");
+				if(interesting.equals("(x+3)^2")) {
+					score++; JOptionPane.showMessageDialog(null, "Your score is "+score+ ".");
+				} else {
+					score--; JOptionPane.showMessageDialog(null, "Your score is "+score+ ".");
 				}
 				
 		
